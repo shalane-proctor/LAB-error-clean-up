@@ -1,6 +1,6 @@
-import renderToDOM from '../renderToDom';
+import renderToDOM from './renderToDom';
 import { students, houses } from '../helpers/data';
-import studentsOnDom from '../studentOnDom';
+import studentsOnDom from './studentOnDom';
 
 const createId = (array) => {
   if (array.length) {

@@ -1,8 +1,8 @@
 import '../styles/main.scss';
-import htmlStructure from './htmlStructure';
-import header from './header';
-import startSortingBtn from './startSortingBtn';
-import events from './events';
+import htmlStructure from './components/htmlStructure';
+import header from './components/header';
+import startSortingBtn from './components/startSortingBtn';
+import events from './components/events';
 
 const startApp = () => {
   htmlStructure(); // always load first

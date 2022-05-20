@@ -1,4 +1,4 @@
-import { students, voldysArmy } from './data';
+import { students, voldysArmy } from '../helpers/data';
 import studentsOnDom from './studentOnDom';
 import { form } from './formElements';
 import filterBtnRow from './filterBtns';
