@@ -1,7 +1,7 @@
 import '../styles/main.scss';
-import htmlStructure from './components/htmlStructure';
-import header from './components/header';
-import startSortingBtn from './components/startSortingBtn';
+import htmlStructure from './components/htmlElements/htmlStructure';
+import header from './components/htmlElements/header';
+import startSortingBtn from './components/buttonElements/startSortingBtn';
 import events from './components/events';
 
 const startApp = () => {
