@@ -1,8 +1,8 @@
-import { students, voldysArmy } from '../helpers/data';
-import studentsOnDom from './studentOnDom';
+import { students, voldysArmy } from '../helpers/data/studentData';
+import studentsOnDom from './htmlElements/studentOnDom';
 import { form } from './formElements';
-import filterBtnRow from './filterBtns';
-import studentAreas from './studentAreas';
+import filterBtnRow from './buttonElements/filterBtns';
+import studentAreas from './htmlElements/studentAreas';
 
 const events = () => {
   // get form on the DOM on button click
